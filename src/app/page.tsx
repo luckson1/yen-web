@@ -24,7 +24,7 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div className='text-6xl w-full lg:w-2/3 mx-auto'>
+      <div className=' text-2xl lg:text-6xl  w-full  mx-auto'>
         Welcome to Yen Golf. Kindly proceed to the app and login to access your services! 🏌️‍♂️
       </div>
 
