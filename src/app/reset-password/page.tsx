@@ -3,9 +3,8 @@ import ResetPassword from "@/components/reset-password";
 import { createClient } from "@/lib/supabase/client";
 
 export default function Reset() {
-  const supabase=createClient()
-  const c=supabase.auth.getUser()
-  console.log()
+  const supabase = createClient();
+  console.log();
   return (
     <div className="flex items-center justify-center w-full mx-auto">
       <div className="w-full max-w-lg my-20">
